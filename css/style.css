@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: linear-gradient(45deg,#006270, #00e0c7);
+  background: linear-gradient(45deg, #006270, #00e0c7);
 }
 
 .app {
@@ -90,11 +90,14 @@ body {
   display: flex;
   justify-content: center;
 }
-.form-input, .form-button {
+
+.form-input,
+.form-button {
   border-radius: 0;
   padding: 0.75rem;
   font-size: 0.75rem;
 }
+
 .form-input {
   outline: none;
   background-color: #F6F1D1;
@@ -102,6 +105,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
+
 .form-button {
   border: 1px;
   background: #F6F1D1;
@@ -110,6 +114,7 @@ body {
   cursor: pointer;
   margin-left: 0.25rem;
 }
+
 .form-button:hover {
   color: #F6F1D1;
   background: rgba(246, 241, 209, 0.1);
@@ -130,7 +135,8 @@ body {
   padding: 1rem 3rem;
 }
 
-.check-button, .delete-button {
+.check-button,
+.delete-button {
   background-color: #F6F1D1;
   border: none;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
@@ -163,6 +169,12 @@ body {
 
 .task.done .content {
   text-decoration: line-through;
+}
+
+footer {
+  position: absolute;
+  margin-top: 575px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
